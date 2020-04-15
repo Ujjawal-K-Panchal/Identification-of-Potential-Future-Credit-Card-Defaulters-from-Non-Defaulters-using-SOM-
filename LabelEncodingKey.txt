@@ -1,0 +1,43 @@
+#Format : 
+#<Class_name> 
+#<real_value> : <encoded_data>
+CARD_TYPE
+  CLASSIC : 0 ,   GOLD : 1 ,   PLATINUM : 2 , 
+BRANCH STATUS'
+  METRO : 0 ,   RURAL : 1 ,   SEMI_URBAN : 2 ,   URBAN : 3 , 
+GENDER
+  FEMALE : 0 ,   MALE : 1 , 
+OCCUPATION
+  AGRAA : 0 ,   ARCHT : 1 ,   ARHTI : 2 ,   BCORP : 3 ,   BRGEQ : 4 ,   CHART : 5 ,   CONTR : 6 ,   DOCTR : 7 ,   EGOVT : 8 ,   ENGCT : 9 ,   ENTPR : 10 ,   EOPVT : 11 ,   EPSUS : 12 ,   FARMR : 13 ,   FINCE : 14 ,   HOUWF : 15 ,   INDUS : 16 ,   JEWEL : 17 ,   LABOR : 18 ,   LICAG : 19 ,   LTCOL : 20 ,   LWYRS : 21 ,   MCLTS : 22 ,   NANX : 23 ,   NOTWG : 24 ,   OTHER : 25 ,   PBORS : 26 ,   POLIC : 27 ,   PRPUR : 28 ,   PUBUS : 29 ,   RTGOV : 30 ,   RTOTH : 31 ,   RTPSU : 32 ,   STUDT : 33 ,   TRADR : 34 ,   TRAGT : 35 ,   TRANS : 36 ,   TRAPT : 37 , 
+PROFESSION
+  AGRICULTURE AND ALLIED ACTIVITIES' : 0 ,   ARCHITECT : 1 ,   ARHTIA : 2 ,   BRIGADIER & ABOVE OR EQUIVALENT RANK' : 3 ,   BUSINESS CORRESPONDENTS' : 4 ,   CHARTERED ACCOUNTANT' : 5 ,   CONTRACTOR : 6 ,   DATA NOT AVAILABLE' : 7 ,   DOCTORS : 8 ,   ENGINEERING CONSULTANT' : 9 ,   ENTREPRENEUR : 10 ,   FARMER : 11 ,   FINANCE : 12 ,   GOVT EMPLOYEE' : 13 ,   HOUSEWIFE : 14 ,   INDUSTRIALIST : 15 ,   JEWELLERS : 16 ,   LABOURER : 17 ,   LAWYERS / ADVOCATES' : 18 ,   LIC AGENTS' : 19 ,   LT.COLS AND COLS' : 20 ,   MAJORS : 21 ,   OTHERS-NOT WORKING' : 22 ,   PERSON BELOW OFFICER RANK' : 23 ,   POLICE OERSONNEL- PNB RAKSHAK' : 24 ,   PRIVATE PURCHASE' : 25 ,   PSU EMPLOYEE' : 26 ,   PVT EMPLOYEE' : 27 ,   RETIRED : 28 ,   STUDENT : 29 ,   TRADER : 30 ,   TRANSPORT : 31 ,   TRANSPORTER : 32 ,   TRAVEL AGENT' : 33 , 
+MARRIEDARITAL_SINGLETATUSINGLE
+  CAPTIONS : 0 ,   MARRIED : 1 ,   SINGLE : 2 , 
+SPOUSE WORKING'
+  LTS' : 0 ,   NANX : 1 ,   NO : 2 ,   YES : 3 , 
+Salary
+  1 : 0 ,   10 : 1 ,   11 : 2 ,   12 : 3 ,   13 : 4 ,   14 : 5 ,   2 : 6 ,   20 : 7 ,   3 : 8 ,   4 : 9 ,   47 : 10 ,   5 : 11 ,   50 : 12 ,   6 : 13 ,   7 : 14 ,   8 : 15 ,   9 : 16 ,   SINGLE : 17 , 
+LOAN '
+  N : 0 ,   NANX : 1 ,   Y : 2 , 
+FDRD
+  3 : 0 ,   N : 1 ,   Y : 2 , 
+IBS
+  N : 0 ,   Y : 1 , 
+MBS
+  N : 0 ,   Y : 1 , 
+NO_OF_YRS_AT_RES
+  0 : 0 ,   1 : 1 ,   10 : 2 ,   11 : 3 ,   12 : 4 ,   13 : 5 ,   14 : 6 ,   15 : 7 ,   16 : 8 ,   17 : 9 ,   18 : 10 ,   19 : 11 ,   2 : 12 ,   20 : 13 ,   21 : 14 ,   22 : 15 ,   23 : 16 ,   24 : 17 ,   25 : 18 ,   26 : 19 ,   27 : 20 ,   28 : 21 ,   29 : 22 ,   3 : 23 ,   30 : 24 ,   31 : 25 ,   32 : 26 ,   33 : 27 ,   34 : 28 ,   35 : 29 ,   36 : 30 ,   37 : 31 ,   38 : 32 ,   39 : 33 ,   4 : 34 ,   40 : 35 ,   43 : 36 ,   44 : 37 ,   45 : 38 ,   46 : 39 ,   47 : 40 ,   5 : 41 ,   50 : 42 ,   51 : 43 ,   55 : 44 ,   57 : 45 ,   58 : 46 ,   6 : 47 ,   7 : 48 ,   8 : 49 ,   9 : 50 ,   Y : 51 , 
+PREFERRED_COMMUNICATION_ADD
+  N : 0 ,   OFFICE : 1 ,   RESIDENCE : 2 , 
+PHOTO_NON_PHOTOFLG
+  NON-PHOTO : 0 ,   OFFICE : 1 ,   PHOTO : 2 , 
+AUTO_STATUS
+  0 : 0 ,   2 : 1 ,   NO : 2 ,   YES : 3 , 
+PRE_APPROVED_STAFF_FD
+  FD : 0 ,   NO : 1 ,   NON-PHOTO : 2 , 
+VIP_FLG
+  NO : 0 ,   YES : 1 , 
+CREDIT_CARD_SCORE
+  0 : 0 ,   27 : 1 ,   29 : 2 ,   33 : 3 ,   35 : 4 ,   36 : 5 ,   38 : 6 ,   39 : 7 ,   40 : 8 ,   41 : 9 ,   43 : 10 ,   44 : 11 ,   45 : 12 ,   46 : 13 ,   47 : 14 ,   48 : 15 ,   49 : 16 ,   50 : 17 ,   51 : 18 ,   52 : 19 ,   53 : 20 ,   54 : 21 ,   55 : 22 ,   56 : 23 ,   57 : 24 ,   58 : 25 ,   59 : 26 ,   60 : 27 ,   61 : 28 ,   62 : 29 ,   63 : 30 ,   64 : 31 ,   65 : 32 ,   66 : 33 ,   67 : 34 ,   68 : 35 ,   69 : 36 ,   70 : 37 ,   71 : 38 ,   72 : 39 ,   73 : 40 ,   74 : 41 ,   75 : 42 ,   76 : 43 ,   77 : 44 ,   78 : 45 ,   79 : 46 ,   80 : 47 ,   81 : 48 ,   83 : 49 ,   84 : 50 ,   85 : 51 ,   88 : 52 ,   NO : 53 , 
+CIBIL_SCORE
+  -1 : 0 ,   0 : 1 ,   535 : 2 ,   555 : 3 ,   582 : 4 ,   600 : 5 ,   601 : 6 ,   614 : 7 ,   622 : 8 ,   654 : 9 ,   660 : 10 ,   675 : 11 ,   679 : 12 ,   686 : 13 ,   688 : 14 ,   691 : 15 ,   694 : 16 ,   697 : 17 ,   708 : 18 ,   712 : 19 ,   716 : 20 ,   719 : 21 ,   721 : 22 ,   725 : 23 ,   727 : 24 ,   728 : 25 ,   730 : 26 ,   732 : 27 ,   737 : 28 ,   741 : 29 ,   743 : 30 ,   744 : 31 ,   745 : 32 ,   748 : 33 ,   750 : 34 ,   751 : 35 ,   753 : 36 ,   754 : 37 ,   756 : 38 ,   757 : 39 ,   758 : 40 ,   759 : 41 ,   760 : 42 ,   761 : 43 ,   762 : 44 ,   763 : 45 ,   764 : 46 ,   765 : 47 ,   766 : 48 ,   767 : 49 ,   768 : 50 ,   769 : 51 ,   770 : 52 ,   771 : 53 ,   772 : 54 ,   773 : 55 ,   774 : 56 ,   775 : 57 ,   776 : 58 ,   777 : 59 ,   778 : 60 ,   779 : 61 ,   780 : 62 ,   781 : 63 ,   782 : 64 ,   783 : 65 ,   784 : 66 ,   785 : 67 ,   786 : 68 ,   787 : 69 ,   788 : 70 ,   789 : 71 ,   790 : 72 ,   791 : 73 ,   792 : 74 ,   793 : 75 ,   795 : 76 ,   796 : 77 ,   797 : 78 ,   798 : 79 ,   799 : 80 ,   800 : 81 ,   801 : 82 ,   802 : 83 ,   803 : 84 ,   804 : 85 ,   805 : 86 ,   806 : 87 ,   807 : 88 ,   808 : 89 ,   809 : 90 ,   810 : 91 ,   811 : 92 ,   812 : 93 ,   813 : 94 ,   814 : 95 ,   815 : 96 ,   816 : 97 ,   817 : 98 ,   818 : 99 ,   819 : 100 ,   820 : 101 ,   821 : 102 ,   822 : 103 ,   823 : 104 ,   825 : 105 ,   826 : 106 ,   827 : 107 ,   828 : 108 ,   829 : 109 ,   830 : 110 ,   831 : 111 ,   833 : 112 ,   835 : 113 ,   836 : 114 ,   837 : 115 ,   838 : 116 ,   839 : 117 ,   840 : 118 ,   841 : 119 ,   843 : 120 ,   844 : 121 ,   845 : 122 ,   846 : 123 ,   847 : 124 ,   848 : 125 ,   849 : 126 ,   852 : 127 ,   856 : 128 ,   859 : 129 ,   861 : 130 ,   NO : 131

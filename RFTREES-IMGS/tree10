@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label=<CARD_TYPE<SUB>0</SUB> &le; 0.5<br/>gini = 0.446<br/>samples = 12000<br/>value = [7965, 4035]>, fillcolor="#e581397e"] ;
+1 [label=<AUTO_STATUS &le; 2.5<br/>gini = 0.375<br/>samples = 10625<br/>value = [7965, 2660]>, fillcolor="#e58139aa"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<NO_OF_DEPENDENTS &le; 1.5<br/>gini = 0.397<br/>samples = 9758<br/>value = [7098, 2660]>, fillcolor="#e581399f"] ;
+1 -> 2 ;
+3 [label=<SPOUSE WORKING' &le; 2.5<br/>gini = 0.416<br/>samples = 4637<br/>value = [3270, 1367]>, fillcolor="#e5813994"] ;
+2 -> 3 ;
+4 [label=<IBS &le; 0.5<br/>gini = 0.417<br/>samples = 4614<br/>value = [3247, 1367]>, fillcolor="#e5813994"] ;
+3 -> 4 ;
+5 [label=<gini = 0.499<br/>samples = 1289<br/>value = [621, 668]>, fillcolor="#399de512"] ;
+4 -> 5 ;
+6 [label=<gini = 0.332<br/>samples = 3325<br/>value = [2626, 699]>, fillcolor="#e58139bb"] ;
+4 -> 6 ;
+7 [label=<gini = 0.0<br/>samples = 23<br/>value = [23, 0]>, fillcolor="#e58139ff"] ;
+3 -> 7 ;
+8 [label=<FDRD &le; 1.5<br/>gini = 0.377<br/>samples = 5121<br/>value = [3828, 1293]>, fillcolor="#e58139a9"] ;
+2 -> 8 ;
+9 [label=<PHOTO_NON_PHOTOFLG &le; 1.0<br/>gini = 0.414<br/>samples = 4298<br/>value = [3042, 1256]>, fillcolor="#e5813996"] ;
+8 -> 9 ;
+10 [label=<gini = 0.355<br/>samples = 2708<br/>value = [2084, 624]>, fillcolor="#e58139b3"] ;
+9 -> 10 ;
+11 [label=<gini = 0.479<br/>samples = 1590<br/>value = [958, 632]>, fillcolor="#e5813957"] ;
+9 -> 11 ;
+12 [label=<PHOTO_NON_PHOTOFLG &le; 1.0<br/>gini = 0.086<br/>samples = 823<br/>value = [786, 37]>, fillcolor="#e58139f3"] ;
+8 -> 12 ;
+13 [label=<gini = 0.059<br/>samples = 557<br/>value = [540, 17]>, fillcolor="#e58139f7"] ;
+12 -> 13 ;
+14 [label=<gini = 0.139<br/>samples = 266<br/>value = [246, 20]>, fillcolor="#e58139ea"] ;
+12 -> 14 ;
+15 [label=<gini = 0.0<br/>samples = 867<br/>value = [867, 0]>, fillcolor="#e58139ff"] ;
+1 -> 15 ;
+16 [label=<gini = 0.0<br/>samples = 1375<br/>value = [0, 1375]>, fillcolor="#399de5ff"] ;
+0 -> 16 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
